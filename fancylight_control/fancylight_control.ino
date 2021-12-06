@@ -36,8 +36,8 @@ IRsend lightController(PIN_D2);
 
 
 // ==== Wifi connection globals
-const char* ssid = "TeaCoffeeMadness"; // SSID
-const char* password = "SambarIdliVada"; // Password
+const char* ssid = ""; // SSID
+const char* password = ""; // Password
 // IP address setting of this node
 IPAddress ip(192, 168, 0, 204); 
 IPAddress gateway(192, 168, 0, 1);
